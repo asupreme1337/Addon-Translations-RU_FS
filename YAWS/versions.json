@@ -1,5 +1,8 @@
 {
   "2.0.0": {
      "English": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/English.json"
+  },
+  "3.2.1": {
+    "English": "test"
   }
 }

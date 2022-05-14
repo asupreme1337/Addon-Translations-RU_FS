@@ -1,0 +1,170 @@
+{
+    "authors": [
+        "https://www.gmodstore.com/users/higamato"
+    ],
+    "icon": "flags16/tr.png",
+
+    "chat_no_permission": "Bunu yapmaya iznin yok.",
+    "net_cooldown": "Sunucuya çok fazla paket gönderiyorsun. Lütfen daha sonra tekrar deneyin.",
+
+    "admin_permissions_saved": "Yeni izinler başarıyla kaydedildi.",
+    "admin_config_saved": "Konfigurasyonlar başarıyla kaydedildi.",
+
+    "admin_preset_added": "Başarıyla yeni bir ön ayar eklendi.",
+    "admin_preset_nope": "Ön ayarda eksik bilgi var.",
+    "admin_preset_dupe": "Bu isimde bir ön ayar zaten var.",
+    "admin_preset_cantfind": "Böyle bir ön ayar bulunamadı.",
+    "admin_preset_removed": "Ön ayar silindi.",
+    "admin_preset_limit": "32den fazla ön ayarın olamaz.",
+
+    "admin_player_warned": "%s Başarıyla uyarıldı.",
+    "admin_player_note_update": "Oyuncuların admin notları başarıyla güncellendi.",
+    "admin_player_wipewarns": "%s adlı oyuncunun bütün uyarıları silindi.",
+
+    "admin_punishment_created": "Ceza oluşturuldu.",
+    "admin_punishment_removed": "Ceza silindi.",
+
+    "player_warn_notice": "%s seni %s sebebiyle uyardı",
+    "player_warn_broadcast": "%s, %s tarafından %s sebebiyle uyarıldı",
+    "player_warn_immune": "Bu oyuncuyu uyaramzsın.",
+    "player_warn_noreason": "Lütfen bu oyuncunun uyarılma sebebini yazınız.",
+    "player_warn_toolong": "Sebebin 150 kararterden uzun olamaz.",
+    "player_warn_maxpoints": "Bir uyarıya maksimum %s puan verebilirsin.",
+    "player_warn_help": "Bir oyuncuyu chatten uyarmak için: !warn <oyuncu> <puan> <sebep>",
+    "player_warn_help_console": "Bir oyuncuyu konsol üzerinden uyarmak için şunu kullanın: yaws warn <oyuncu> <puan> <sebep>",
+    "player_warn_searchid_wait": "Aranıyor... lütfen bekleyin...",
+    "player_warn_searchid_nonefound": "Bu kimliğe sahip hiçbir uyarı bulunamadı.",
+    "player_warn_ui": "Sadece ön ayarları kullanmaya iznin varsa chatten kimseyi uyaramazsın.",
+    "player_warn_not_found": "\"%s\" adlı oyuncu bulunamadı.",
+    "player_warn_wrongpoints": "Girdiğin puan geçersiz.",
+    "player_warn_notyou": "Kendini uyaramazsın.",
+    "player_warn_deleted": "Uyarı başarıyla silindi.",
+    "player_warn_deleted_user": "%s, uyarılarınızdan birini sildi.",
+
+    "generic_save": "Değişiklikleri Kaydet",
+    "generic_cancel": "İptal Et",
+    "generic_back": "Geri",
+    "generic_point_count": "Puan",
+    "generic_delete": "Sil",
+
+    "sidebar_warnings": "Uyarılar",
+    "sidebar_players": "Oyuncular",
+    "sidebar_admin": "Yetkili",
+    "sidebar_settings": "Ayarlar",
+    "sidebar_close": "Kapat",
+
+    "players_tab_search": "İsim/steamid(64) ile ara.",
+    "players_tab_search_button": "Ara",
+    "players_tab_offline": "Çevrimdışı oyuncular da aransın mı?",
+
+    "viewing_player_no_warns_found": "Bu oyunucu için herhangi bir uyarı bulunmadı.",
+    "viewing_player_action_submit_warn": "Yeni Uyarı Gir",
+    "viewing_player_action_view_notes": "Yetkili Notlarını Görüntüle",
+    "viewing_player_player_notes": "Yetkili Notları",
+    "viewing_player_save_player_notes": "Admin Notlarını Kaydet",
+
+    "viewing_player_table_admin": "Yetkili",
+    "viewing_player_table_reason": "Sebep",
+    "viewing_player_table_time": "Zaman",
+    "viewing_player_table_points": "Puan",
+    "viewing_player_table_server": "Sunucu",
+
+    "viewing_player_table_right_id": "Uyarı ID'sini Kopyala",
+    "viewing_player_table_right_admin": "Yetkiliyi Kopyala",
+    "viewing_player_table_right_reason": "Sebebi Kopyala",
+    "viewing_player_table_right_time": "Zamanı Kopyala",
+    "viewing_player_table_right_points": "Puanı Kopyala",
+    "viewing_player_table_right_server": "Sunucu İsmini Kopyala",
+    "viewing_player_table_right_log": "Log Olarak Kopyala",
+
+    "viewing_player_wipe_header": "%s adlı oyuncunun bütün uyarılarını sil?",
+    "viewing_player_wipe_subtext": "Bu geri döndürülemez. Yapmak istediğinizin bu olduğundan emin olun.",
+
+    "viewing_warn_time": "Zaman",
+    "viewing_warn_point": "Puan Cezası",
+    "viewing_warn_server": "Sunucu",
+    "viewing_warn_reason": "Sebep",
+
+    "warn_player_submit": "Oyuncuyu Uyar",
+    "warn_player_reason": "Uyarı Sebebi",
+
+    "admin_tab_sidebar_permissions": "İzinler",
+    "admin_tab_sidebar_settings": "Ayarlar",
+    "admin_tab_sidebar_presets": "Ön Ayarlar",
+    "admin_tab_sidebar_punishments": "Cezalar",
+
+    "admin_tab_presets_none": "Hiç bir ön ayar bulunamadı",
+    "admin_tab_presets_name": "Ön Ayar İsmi",
+    "admin_tab_presets_reason": "Ön Ayar Sebebi",
+    "admin_tab_presets_create": "Ön Ayarı Oluştur",
+
+    "admin_tab_punishments_selecttype": "Ceza Tipini Seç",
+    "admin_tab_punishments_create": "Ceza Eşiği Oluştur",
+    "admin_tab_punishments_notype": "Hiç bir ceza tipi seçilmedi.",
+    "admin_tab_punishments_none": "Hiç bir ceza bulunamadı",
+
+    "admin_tab_warning_presets_box": "Ön Ayar Seç",
+    "admin_tab_warning_reason_placeholder": "Sebep Gir",
+
+
+    "yaws": "Yine Bir Uyarı Sistemi",
+    "context_warn": "Bu Oyuncuyu Uyar",
+    "context_presets": "Bu Oyuncuyu Ön Ayarları Kullanarak Uyar",
+    "context_points": "Puan: %s",
+    "context_reason": "Uyarı Sebebi: %s",
+    "context_submit": "Uyar",
+    "context_viewwarns": "Uyarıları Görüntüle",
+    "context_viewnotes": "Yetkili Notlarını Görüntüle",
+
+    "points_format": "%s Puan",
+
+    "loading": "Yükleniyor...",
+    "loading_hehe": "Satisfactory Oynanıyor...",
+
+    "permission_view_ui": "Arayüzü Aç",
+    "permission_view_self_warns": "Keni Uyarılarını Görüntüle",
+    "permission_view_others_warns": "Başkalarının Uyarılarını Görüntüle",
+    "permission_view_admin_settings": "Yetkili Ayarlarını Görüntüle ve Düzenle",
+    "permission_create_warns": "Uyarı Oluştur",
+    "permission_customise_reason": "Özel Sebepler Kullan",
+    "permission_delete_warns": "Uyarıları Sil",
+
+    "user_settings_darkmode_name": "Karanlık Mod",
+    "user_settings_darkmode_desc": "Arayüzdeki karanlık modu açar.",
+
+    "user_settings_language_name": "Dil",
+    "user_settings_language_desc": "Arayüzü hangi dilde kullanmak istiyorsunuz? Arayüzün yeniden açılması gerekir.",
+
+    "user_settings_blur_name": "Arka Plan Bulanıklaştırma",
+    "user_settings_blur_desc": "UI arka planında bulanıklaştırmayı etkinleştirin. Kullanıcı arabiriminin yeniden açılmasını gerektirir.",
+
+    "admin_settings_prefix_name": "Ön ek",
+    "admin_settings_prefix_desc": "Eklentinin sohbette kullanacağı ön ek.",
+
+    "admin_settings_prefix_color_name": "Ön ek Rengi",
+    "admin_settings_prefix_color_desc": "Sohbetteki ön ekin rengi.",
+
+    "admin_settings_broadcast_warns_name": "Uyarıları Duyur",
+    "admin_settings_broadcast_warns_desc": "Eğer true ise eklenti uyarıları çevrimiçi herkese duyuracak.",
+
+    "admin_settings_point_cooldown_time_name": "Puan Azalma Süresi",
+    "admin_settings_point_cooldown_time_desc": "Bir oyuncudan aktif puanların kaldırılmasının ne kadar süreceği(saniye). Devre dışı bırakmak için 0 yapın.",
+
+    "admin_settings_point_cooldown_amount_name": "Puan Azalma Miktarı",
+    "admin_settings_point_cooldown_amount_desc": "Belirlenen sürede ne kadar puanın azalacağını belirler. Eğer kapalıysa bunu ellemeyin.",
+
+    "admin_settings_reason_required_name": "Sebep Gerekli mi?",
+    "admin_settings_reason_required_desc": "Eğer true ise yetkililerin her uyarıya sebep yazmaları gerekir.",
+
+    "admin_settings_point_max_name": "Maksimum Puan",
+    "admin_settings_point_max_desc": "Bir uyarının verebileceği maksimum puan.",
+
+    "admin_settings_purge_on_punishment_name": "Cezada Tasfiye",
+    "admin_settings_purge_on_punishment_desc": "Eğer true ise eklenti cezalandırıldıklarında oyuncuların puanlarını devre dışı bırakır.",
+
+    "admin_settings_join_message_enabled_name": "Katılma Mesajı Etkin",
+    "admin_settings_join_message_enabled_desc": "Eğer etkinse eklenti bir oyuncu aktif puanlarla oyuna katıldığında oyunculara mesaj gönderir.",
+
+    "admin_settings_join_message_message_name": "Katıl Mesajı",
+    "admin_settings_join_message_message_desc": "Gönderilecek mesaj. {active} aktif puanlar, {inactive} in aktif puanlar, {points} toplam puanlar"
+}

@@ -1,0 +1,169 @@
+{
+    "authors": [
+        "https://www.gmodstore.com/users/kehn"
+    ],
+    "icon": "flags16/de.png",
+
+    "chat_no_permission": "Dazu hast du nicht die nötige Berechtigung.",
+    "net_cooldown": "Du sendest zu viele Anfragen an den Server, bitte warte einen Moment.",
+
+    "admin_permissions_saved": "Die Berechtigungen wurden erfolgreich gespeichert.",
+    "admin_config_saved": "Die Einstellungen wurden erfolgreich gespeichert.",
+
+    "admin_preset_added": "Die Vorlage wurde erfolgreich gespeichert.",
+    "admin_preset_nope": "Der Vorlage fehlt der Name oder der Grund.",
+    "admin_preset_dupe": "Eine Vorlage mit dem Namen existiert bereits.",
+    "admin_preset_cantfind": "Die Vorlage konnte nicht gefunden werden.",
+    "admin_preset_removed": "Vorlage wurde entfernt.",
+    "admin_preset_limit": "Du kannst nicht mehr als 32 Vorlagen erstellen.",
+
+    "admin_player_warned": "%s wurde verwarnt.",
+    "admin_player_note_update": "Die Admin Anmerkungen des Spielers wurden erfolgreich aktualisiert.",
+    "admin_player_wipewarns": "Erfolgreich alle Warnungen von %s gelöscht.",
+
+    "admin_punishment_created": "Bestrafung hinzugefügt.",
+    "admin_punishment_removed": "Bestrafung entfernt.",
+
+    "player_warn_notice": "%s hat dich verwarnt, wegen: %s",
+    "player_warn_broadcast": "%s wurde von %s verwarnt, für folgenden Grund: %s",
+    "player_warn_immune": "Dieser Spieler kann nicht verwarnt werden.",
+    "player_warn_noreason": "Bitte gib einen Grund an, um den Spieler zu verwarnen.",
+    "player_warn_toolong": "Der Grund darf nicht länger als 150 Zeichen sein.",
+    "player_warn_maxpoints": "Du darfst das Maximum von %s Strafpunkten zum verwarnen nicht überschreiten.",
+    "player_warn_help": "Um einen Spieler im Chat zu verwarnen, nutze: !warn <Spieler> <Punkte> <Grund>",
+    "player_warn_help_console": "Um einen Spieler über die Konsole zu warnen, verwenden Sie: yaws warn <Spieler> <Punkte> <Grund>",
+    "player_warn_searchid_wait": "Suche... bitte warten...",
+    "player_warn_searchid_nonefound": "Es wurde keine Warnung mit dieser ID gefunden.",
+    "player_warn_ui": "Du darfst niemanden im Chat verwarnen, sondern nur Vorlagen nutzen.",
+    "player_warn_not_found": "Der Spieler \"%s\" konnte nicht gefunden werden.",
+    "player_warn_wrongpoints": "Der Angegebene Strafpunkte Wert entspricht nicht den Anfoderungen.",
+    "player_warn_notyou": "Du kannst dich nicht selbst verwarnen.",
+    "player_warn_deleted": "Verwarnung erfolgreich gelöscht.",
+    "player_warn_deleted_user": "%s hat eine Ihrer Warnungen gelöscht.",
+
+    "generic_save": "Änderungen speichern",
+    "generic_cancel": "Abbrechen",
+    "generic_back": "Zurück",
+    "generic_point_count": "Punktzahl",
+    "generic_delete": "Löschen",
+
+    "sidebar_warnings": "Verwarnungen",
+    "sidebar_players": "Spieler",
+    "sidebar_admin": "Admin",
+    "sidebar_settings": "Einstellungen",
+    "sidebar_close": "Schließen",
+
+    "players_tab_search": "Suche per Namen/Steamid(64).",
+    "players_tab_search_button": "Suche bestätigen",
+    "players_tab_offline": "Offline Spieler berücksichtigen?",
+
+    "viewing_player_no_warns_found": "Es gibt keine Verwarnungen für den angegebenen Spieler.",
+    "viewing_player_action_submit_warn": "Neue Verwarnung hinzufügen",
+    "viewing_player_action_view_notes": "Admin Anmerkungen anzeigen",
+    "viewing_player_player_notes": "Admin Anmerkungen",
+    "viewing_player_save_player_notes": "Admin Anmerkungen speichern",
+
+    "viewing_player_table_admin": "Admin",
+    "viewing_player_table_reason": "Grund",
+    "viewing_player_table_time": "Zeit",
+    "viewing_player_table_points": "Punkte",
+    "viewing_player_table_server": "Server",
+
+    "viewing_player_table_right_admin": "Admin kopieren",
+    "viewing_player_table_right_reason": "Grund speichern",
+    "viewing_player_table_right_time": "Zeit speichern",
+    "viewing_player_table_right_points": "Punkte speichern",
+    "viewing_player_table_right_server": "Servernamen speichern",
+    "viewing_player_table_right_log": "Als Log speichern",
+
+    "viewing_player_wipe_header": "Alle Verwarnungen von %s löschen?",
+    "viewing_player_wipe_subtext": "Dies ist unumkehrbar. Bist du dir sicher?",
+
+    "viewing_warn_time": "Zeit",
+    "viewing_warn_point": "Strafpunkte",
+    "viewing_warn_server": "Server",
+    "viewing_warn_reason": "Grund",
+
+    "warn_player_submit": "Spieler verwarnen",
+    "warn_player_reason": "Grund der Verwarnung",
+
+    "admin_tab_sidebar_permissions": "Berechtigungen",
+    "admin_tab_sidebar_settings": "Einstellungen",
+    "admin_tab_sidebar_presets": "Vorlagen",
+    "admin_tab_sidebar_punishments": "Bestrafungen",
+
+    "admin_tab_presets_none": "Es wurden keine Vorlagen gefunden",
+    "admin_tab_presets_name": "Vorlagen Name",
+    "admin_tab_presets_reason": "Vorlagen Grund",
+    "admin_tab_presets_create": "Vorlage erstellen",
+
+    "admin_tab_punishments_selecttype": "Wähle Bestrafungstyp aus",
+    "admin_tab_punishments_create": "Strafschwelle erstellen",
+    "admin_tab_punishments_notype": "Kein Bestrafungstyp ausgewählt.",
+    "admin_tab_punishments_none": "Es wurden keine Bestrafungen gefunden.",
+
+    "admin_tab_warning_presets_box": "Wähle eine Vorlage",
+    "admin_tab_warning_reason_placeholder": "Gebe einen Grund ein",
+
+
+    "yaws": "Yet Another Warning System",
+    "context_warn": "Diesen Spieler verwarnen",
+    "context_presets": "Verwarn den Spieler mittels der Vorlage",
+    "context_points": "Strafpunkte: %s",
+    "context_reason": "Verwarn Grund: %s",
+    "context_submit": "Verwarnung bestätigen",
+    "context_viewwarns": "Verwarnungen anzeigen",
+    "context_viewnotes": "Admin Anmerkungen anzeigen",
+
+    "points_format": "%s Strafpunkte",
+
+    "loading": "Lädt...",
+    "loading_hehe": "Spiele lustiges...",
+
+    "permission_view_ui": "Menü öffnen",
+    "permission_view_self_warns": "Eigene Verwarnungen anzeigen",
+    "permission_view_others_warns": "Andere Verwarnungen anzeigen",
+    "permission_view_admin_settings": "Admin Einstellungen anzeigen und bearbeiten",
+    "permission_create_warns": "Verwarnungen erstellen",
+    "permission_customise_reason": "Eigene Begründungen angeben",
+    "permission_delete_warns": "Verwarnungen löschen",
+
+    "user_settings_darkmode_name": "Dunkelmodus",
+    "user_settings_darkmode_desc": "Aktiviere den Dunkelmodus in diesem Menü.",
+
+    "user_settings_language_name": "Sprache",
+    "user_settings_language_desc": "Wähle deine Sprache für das Menü. Erfordert das schließen des Menüs.",
+
+    "user_settings_blur_name": "Hintergrund verwischen",
+    "user_settings_blur_desc": "Aktivieren Sie Unschärfe auf dem UI-Hintergrund. Erfordert das erneute Öffnen der Benutzeroberfläche.",
+
+    "admin_settings_prefix_name": "Präfix",
+    "admin_settings_prefix_desc": "Der Präfix welches das Addon im Chat nutzt.",
+
+    "admin_settings_prefix_color_name": "Präfix Farbe",
+    "admin_settings_prefix_color_desc": "Farbe des Präfixes im Chat.",
+
+    "admin_settings_broadcast_warns_name": "Öffentlich Verwarnen",
+    "admin_settings_broadcast_warns_desc": "Wenn aktiv bekommt jeder über eine Verwarnung Kenntnis.",
+
+    "admin_settings_point_cooldown_time_name": "Abklingzeit der Strafpunkte",
+    "admin_settings_point_cooldown_time_desc": "Wie lang in Sekunden soll es dauern, bis die Strafpunkte verfallen. Benutze 0 um es zu deaktivieren.",
+
+    "admin_settings_point_cooldown_amount_name": "Strafpunkteverfall",
+    "admin_settings_point_cooldown_amount_desc": "Anzahl der Strafpunkte die jedes mal entfernt werden. Tut nichts, wenn die Abklinzeit deaktiviert ist.",
+
+    "admin_settings_reason_required_name": "Grund benötigt?",
+    "admin_settings_reason_required_desc": "Wenn Aktiv muss zwingend ein Grund angegeben werden.",
+
+    "admin_settings_point_max_name": "Maximale Strafpunkte",
+    "admin_settings_point_max_desc": "Das Maximum welches pro Verwarnung an Strafpunkten gegeben werden kann.",
+
+    "admin_settings_purge_on_punishment_name": "Inaktivsetzung der Strafpunkte bei Bestrafung",
+    "admin_settings_purge_on_punishment_desc": "Wenn Aktiv werden alle Strafpunkte des Spielers bei Bestrafung auf inaktiv gesetzt.",
+
+    "admin_settings_join_message_enabled_name": "Beitrittsnachricht aktivieren",
+    "admin_settings_join_message_enabled_desc": "Wenn Ja, dann bekommen die Spieler mit aktiven Strafpunkten eine Nachricht beim verbinden.",
+
+    "admin_settings_join_message_message_name": "Beitrittsnachricht ",
+    "admin_settings_join_message_message_desc": "Die zu sendende Nachricht. {active} sind die Aktiven Punkte, {inactive} sind inaktive Punkte, {points} ist die gesamtanzahl an Punkten"
+}

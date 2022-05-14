@@ -1,0 +1,169 @@
+{
+    "authors": [
+        "https://www.gmodstore.com/users/76561198301239655"
+    ],
+    "icon": "flags16/ru.png",
+
+    "chat_no_permission": "У Вас не достаточно привилегий для этого.",
+    "net_cooldown": "Вы посылаете слишком много Net-пакетов, постарайтесь позже.",
+
+    "admin_permissions_saved": "Успешно сохранены Ваши новые привилегии.",
+    "admin_config_saved": "Успешно сохранили настройки.",
+
+    "admin_preset_added": "Успешно добавлен пресет.",
+    "admin_preset_nope": "В Вашем пресете отсутствует информация.",
+    "admin_preset_dupe": "Пресет с таким именем уже существует.",
+    "admin_preset_cantfind": "Этот пресет не найден.",
+    "admin_preset_removed": "Пресет удален.",
+    "admin_preset_limit": "Вы не можете иметь больше 32-ух пресетов.",
+
+    "admin_player_warned": "Успешно предупрежден %s.",
+    "admin_player_note_update": "Успешно обновлены, примечания администратора.",
+    "admin_player_wipewarns": "Успешно удалены все предупреждения игроку %s.",
+
+    "admin_punishment_created": "Наказание, созданное.",
+    "admin_punishment_removed": "Наказание, удалено.",
+
+    "player_warn_notice": "%s вынес Вам предупреждение по следующей причине: %s",
+    "player_warn_broadcast": "%s предупрежден %s по причине: %s",
+    "player_warn_immune": "Этот игрок защищен от предупреждений.",
+    "player_warn_noreason": "Пожалуйста, укажите причину для предупреждения этого игрока.",
+    "player_warn_toolong": "Ваша причина не может быть длиннее 150 символов.",
+    "player_warn_maxpoints": "Вы можете поставить только максимум %s баллов предупреждений.",
+    "player_warn_help": "Чтобы предупредить игрока через чат, используйте: !warn <игрок> <кол-во баллов предупреждений> <причина>",
+    "player_warn_help_console": "Чтобы предупредить игрока через консоль, используйте: yaws warn <игрок> <кол-во баллов предупреждений> <причина>",
+    "player_warn_searchid_wait": "Поиск... пожалуйста, подождите...",
+    "player_warn_searchid_nonefound": "Предупреждений с таким идентификатором не найдено.",
+    "player_warn_ui": "Вы не можете предупреждать через чат, так как Вам разрешено использовать только пресеты.",
+    "player_warn_not_found": "Невозможно найти пользователя \"%s\".",
+    "player_warn_wrongpoints": "Указанное количество баллов было неверным.",
+    "player_warn_notyou": "Вы не моежет предупредить самого себя.",
+    "player_warn_deleted": "Предупреждение успешно удалено.",
+    "player_warn_deleted_user": "%s удалил одно из ваших предупреждений.",
+
+    "generic_save": "Сохранить изменения",
+    "generic_cancel": "Отменить",
+    "generic_back": "Назад",
+    "generic_point_count": "Количество",
+    "generic_delete": "Удалить",
+
+    "sidebar_warnings": "Преды",
+    "sidebar_players": "Пользователи",
+    "sidebar_admin": "Админ",
+    "sidebar_settings": "Настройки",
+    "sidebar_close": "Закрыть",
+
+    "players_tab_search": "Поиск через никнейм/steamid(64).",
+    "players_tab_search_button": "Начать поиск",
+    "players_tab_offline": "Искать офлайн пользователей?",
+
+    "viewing_player_no_warns_found": "Для этого пользователя не было найдено предупреждений.",
+    "viewing_player_action_submit_warn": "Подтвердить новое предупреждение",
+    "viewing_player_action_view_notes": "Посмотреть заметки администратора",
+    "viewing_player_player_notes": "Заметки администратора",
+    "viewing_player_save_player_notes": "Сохранить заметку",
+
+    "viewing_player_table_admin": "Админ",
+    "viewing_player_table_reason": "Причина",
+    "viewing_player_table_time": "Время",
+    "viewing_player_table_points": "Баллы",
+    "viewing_player_table_server": "Сервер",
+
+    "viewing_player_table_right_admin": "Скопировать админа",
+    "viewing_player_table_right_reason": "Скопировать причину",
+    "viewing_player_table_right_time": "Скопировать время",
+    "viewing_player_table_right_points": "Скопировать баллы",
+    "viewing_player_table_right_server": "Скопировать название сервера",
+    "viewing_player_table_right_log": "Скопировать лог",
+
+    "viewing_player_wipe_header": "Удалить все предупреждения игроку %s?",
+    "viewing_player_wipe_subtext": "Это необратимое действие, у игрока пропадут все предупреждения которые были выданы ранее.",
+
+    "viewing_warn_time": "Время",
+    "viewing_warn_point": "Баллы",
+    "viewing_warn_server": "Сервер",
+    "viewing_warn_reason": "Причина",
+
+    "warn_player_submit": "Предупредить пользователя",
+    "warn_player_reason": "Причина предупреждения",
+
+    "admin_tab_sidebar_permissions": "Полномочия",
+    "admin_tab_sidebar_settings": "Настройки",
+    "admin_tab_sidebar_presets": "Пресеты",
+    "admin_tab_sidebar_punishments": "Наказания",
+
+    "admin_tab_presets_none": "Пресетов найдено не было",
+    "admin_tab_presets_name": "Название пресета",
+    "admin_tab_presets_reason": "Причина пресета",
+    "admin_tab_presets_create": "Создать пресета",
+
+    "admin_tab_punishments_selecttype": "Выберите тип наказания",
+    "admin_tab_punishments_create": "Создать порог наказания",
+    "admin_tab_punishments_notype": "Тип наказания не выбран.",
+    "admin_tab_punishments_none": "Никаких наказаний найдено не было",
+
+    "admin_tab_warning_presets_box": "Выбрать пресет",
+    "admin_tab_warning_reason_placeholder": "Ввести причину",
+
+
+    "yaws": "Еще одна система предупреждения",
+    "context_warn": "Предупредить этого пользователя",
+    "context_presets": "Предупредите этого пользоваетля, используя пресеты",
+    "context_points": "Баллы предупреждения: %s",
+    "context_reason": "Причина предупреждения: %s",
+    "context_submit": "Подтвердить предупреждение",
+    "context_viewwarns": "Посмотреть предупреждения",
+    "context_viewnotes": "Посмотреть заметки администратора",
+
+    "points_format": "%s Баллов",
+
+    "loading": "Загрузка...",
+    "loading_hehe": "Играем в Майнкрафт...",
+
+    "permission_view_ui": "Открыть меню",
+    "permission_view_self_warns": "Просматреть их предупреждения",
+    "permission_view_others_warns": "Посмотреть другие предупреждения",
+    "permission_view_admin_settings": "Просмотр и редакция настроек",
+    "permission_create_warns": "Создать предупреждения",
+    "permission_customise_reason": "Использовать свою причину",
+    "permission_delete_warns": "Удалить предупреждения",
+
+    "user_settings_darkmode_name": "Тёмная тема",
+    "user_settings_darkmode_desc": "Включает тёмную тему для меню.",
+
+    "user_settings_language_name": "Языки",
+    "user_settings_language_desc": "Какой язык Вы хотите использовать.",
+
+    "user_settings_blur_name": "Размытие фона",
+    "user_settings_blur_desc": "Включите размытие фона пользовательского интерфейса. Требуется повторное открытие пользовательского интерфейса.",
+
+    "admin_settings_prefix_name": "Префикс",
+    "admin_settings_prefix_desc": "Префикс аддона.",
+
+    "admin_settings_prefix_color_name": "Цвет префикса",
+    "admin_settings_prefix_color_desc": "Цвет префикса который будет выводиться в сообщениях.",
+
+    "admin_settings_broadcast_warns_name": "Уведомление предупреждений",
+    "admin_settings_broadcast_warns_desc": "Если включено, то все пользователи сервера увидят предупреждения для игрока.",
+
+    "admin_settings_point_cooldown_time_name": "Время для снятия предупреждений.",
+    "admin_settings_point_cooldown_time_desc": "Сколько времени в секундах для снятия предупреждения. При 0 выключено.",
+
+    "admin_settings_point_cooldown_amount_name": "Количество баллов перезарядки",
+    "admin_settings_point_cooldown_amount_desc": "Сколько баллов нужно начислять за каждый кулдаун. Работает если включен.",
+
+    "admin_settings_reason_required_name": "Требуемая причина?",
+    "admin_settings_reason_required_desc": "Если включено, то администраторы должны вводить причину.",
+
+    "admin_settings_point_max_name": "Максимум баллов",
+    "admin_settings_point_max_desc": "Максимальное количество баллов, которое может получить один игрок.",
+
+    "admin_settings_purge_on_punishment_name": "Очистить наказания",
+    "admin_settings_purge_on_punishment_desc": "Если включено, аддон отметит все баллы игроков как неактивные, когда они будут наказаны.",
+
+    "admin_settings_join_message_enabled_name": "Сообщение о присоединении включено",
+    "admin_settings_join_message_enabled_desc": "Если включено, то аддон будет отправлять сообщение игрокам, когда у них уже есть активные баллы",
+
+    "admin_settings_join_message_message_name": "Сообщение о присоединении",
+    "admin_settings_join_message_message_desc": "Сообщение для отправки. {active} баллов, {inactive} не активных баллов. {points} всего баллов."
+}

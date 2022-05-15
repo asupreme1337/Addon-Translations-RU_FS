@@ -1,8 +1,10 @@
 {
-  "2.0.0": {
-     "English": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/English.json"
-  },
-  "3.2.1": {
-    "English": "test"
-  }
+    "2.0.0": {
+        "English": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/English.json",
+        "French": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/French.json",
+        "German": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/German.json",
+        "Russian": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Russian.json",
+        "Spanish": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Spanish.json",
+        "Turkish": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Turkish.json"
+    }
 }

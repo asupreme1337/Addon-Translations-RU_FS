@@ -6,11 +6,13 @@
 
     "chat_no_permission": "У Вас не достаточно привилегий для этого.",
     "net_cooldown": "Вы посылаете слишком много Net-пакетов, постарайтесь позже.",
+    "error": "Что-то не так. Попробуйте позже.",
 
     "admin_permissions_saved": "Успешно сохранены Ваши новые привилегии.",
     "admin_config_saved": "Успешно сохранили настройки.",
 
     "admin_preset_added": "Успешно добавлен пресет.",
+    "admin_preset_edited": "Пресет успешно изменен.",
     "admin_preset_nope": "В Вашем пресете отсутствует информация.",
     "admin_preset_dupe": "Пресет с таким именем уже существует.",
     "admin_preset_cantfind": "Этот пресет не найден.",
@@ -20,9 +22,11 @@
     "admin_player_warned": "Успешно предупрежден %s.",
     "admin_player_note_update": "Успешно обновлены, примечания администратора.",
     "admin_player_wipewarns": "Успешно удалены все предупреждения игроку %s.",
+    "admin_player_joinwithactive": "%s присоединился с %s активными предупреждениями.",
 
     "admin_punishment_created": "Наказание, созданное.",
     "admin_punishment_removed": "Наказание, удалено.",
+    "admin_punishment_edited": "Наказание, изменено.",
 
     "player_warn_notice": "%s вынес Вам предупреждение по следующей причине: %s",
     "player_warn_broadcast": "%s предупрежден %s по причине: %s",
@@ -46,6 +50,7 @@
     "generic_back": "Назад",
     "generic_point_count": "Количество",
     "generic_delete": "Удалить",
+    "generic_warned": "ПРЕДУПРЕЖДЕН",
 
     "sidebar_warnings": "Преды",
     "sidebar_players": "Пользователи",
@@ -69,12 +74,14 @@
     "viewing_player_table_points": "Баллы",
     "viewing_player_table_server": "Сервер",
 
+    "viewing_player_table_right_id": "Скопировать ID предупреждения",
     "viewing_player_table_right_admin": "Скопировать админа",
     "viewing_player_table_right_reason": "Скопировать причину",
     "viewing_player_table_right_time": "Скопировать время",
     "viewing_player_table_right_points": "Скопировать баллы",
     "viewing_player_table_right_server": "Скопировать название сервера",
     "viewing_player_table_right_log": "Скопировать лог",
+    "viewing_player_table_log_format": "[%s] %s(%s) предупрежден %s(%s) по причине \"%s\", добавляющее %s баллов.",
 
     "viewing_player_wipe_header": "Удалить все предупреждения игроку %s?",
     "viewing_player_wipe_subtext": "Это необратимое действие, у игрока пропадут все предупреждения которые были выданы ранее.",
@@ -105,8 +112,11 @@
     "admin_tab_warning_presets_box": "Выбрать пресет",
     "admin_tab_warning_reason_placeholder": "Ввести причину",
 
-
+    "yaws_top": "Это видно, только владельцу сервера, т.е тебе",
     "yaws": "Еще одна система предупреждения",
+    "yaws_version": "Выпуск %s",
+    "yaws_outdated": "Доступно обновление. Пожалуйста скачайте его!",
+
     "context_warn": "Предупредить этого пользователя",
     "context_presets": "Предупредите этого пользоваетля, используя пресеты",
     "context_points": "Баллы предупреждения: %s",
@@ -115,10 +125,24 @@
     "context_viewwarns": "Посмотреть предупреждения",
     "context_viewnotes": "Посмотреть заметки администратора",
 
+    "page_format": "Страница %s/%s",
+    
+    "no_player_found1": "Игроки по этому фильтру не найдены.",
+    "no_player_found2": "Попробуйте другой фильтр.",
+    "no_warning_found1": "Никаких предупреждений для этого игрока найдено не было.",
+    "no_warning_found2": "Что за ангел!",
+    "no_punishment_found1": "Никаких наказаний найдено не было.",
+    "no_punishment_found2": "Мы оставим это на усмотрение ваших администраторов!",
+    "no_presets_found1": "Никаких пресетов найдено не было.",
+    "no_presets_found2": "Мы понимаем, тебе нравится все делать самому.",
+    
     "points_format": "%s Баллов",
 
     "loading": "Загрузка...",
     "loading_hehe": "Играем в Майнкрафт...",
+    
+    "accessability_points": "Активно баллов",
+    "accessability_inactivepoints": "Неактивно баллов",
 
     "permission_view_ui": "Открыть меню",
     "permission_view_self_warns": "Просматреть их предупреждения",
@@ -136,15 +160,39 @@
 
     "user_settings_blur_name": "Размытие фона",
     "user_settings_blur_desc": "Включите размытие фона пользовательского интерфейса. Требуется повторное открытие пользовательского интерфейса.",
+    
+    "user_settings_switchicons_name": "Включить значки переключателей",
+    "user_settings_switchicons_desc": "Включает значки галочек / крестиков на переключателях для обеспечения доступности.",
+
+    "user_settings_colorblindtxt_name": "Включить Дополнительные Тексты",
+    "user_settings_colorblindtxt_desc": "Включает дополнительный текст для обеспечения доступности.",
+
+    "user_settings_tableview_name": "Вид таблицы",
+    "user_settings_tableview_desc": "Вместо просмотра карточек предупреждений просмотрите предупреждения в виде таблицы. Для самого СЕРЬЕЗНОГО просмотра Предупреждений",
+
+    "user_settings_disablefade_name": "Отключить затухание пользовательского интерфейса",
+    "user_settings_disablefade_desc": "Отключает затухание / исчезновение главной панели пользовательского интерфейса для этих дополнительных 5 мс скорости!",
+
+    "user_settings_disableanim_name": "Выключить анимации интерфейса",
+    "user_settings_disableanim_desc": "Отключает все внутренние анимации пользовательского интерфейса.",
+
+    "user_settings_category_interface": "Пользовательский интерфейс",
+    "user_settings_category_accessibility": "Доступность",
 
     "admin_settings_prefix_name": "Префикс",
     "admin_settings_prefix_desc": "Префикс аддона.",
 
     "admin_settings_prefix_color_name": "Цвет префикса",
     "admin_settings_prefix_color_desc": "Цвет префикса который будет выводиться в сообщениях.",
+    
+    "admin_settings_chat_color_name": "Цвет чата",
+    "admin_settings_chat_color_desc": "Цвет остальных всех сообщений. Полезно, если вы используете окно чата, которое не работает с белым цветом.",
 
     "admin_settings_broadcast_warns_name": "Уведомление предупреждений",
     "admin_settings_broadcast_warns_desc": "Если включено, то все пользователи сервера увидят предупреждения для игрока.",
+    
+    "admin_settings_reason_required_name": "Reason Required?",
+    "admin_settings_reason_required_desc": "If true, admins will be required to put a reason for every warn.",
 
     "admin_settings_point_cooldown_time_name": "Время для снятия предупреждений.",
     "admin_settings_point_cooldown_time_desc": "Сколько времени в секундах для снятия предупреждения. При 0 выключено.",
@@ -152,7 +200,7 @@
     "admin_settings_point_cooldown_amount_name": "Количество баллов перезарядки",
     "admin_settings_point_cooldown_amount_desc": "Сколько баллов нужно начислять за каждый кулдаун. Работает если включен.",
 
-    "admin_settings_reason_required_name": "Требуемая причина?",
+    "admin_settings_reason_required_name": "Нужна причина?",
     "admin_settings_reason_required_desc": "Если включено, то администраторы должны вводить причину.",
 
     "admin_settings_point_max_name": "Максимум баллов",
@@ -166,4 +214,11 @@
 
     "admin_settings_join_message_message_name": "Сообщение о присоединении",
     "admin_settings_join_message_message_desc": "Сообщение для отправки. {active} баллов, {inactive} не активных баллов. {points} всего баллов."
+    
+    "admin_settings_message_admins_on_active_join_name": "Сообщение Администраторам после Присоединения Игрока с Активными Очками",
+    "admin_settings_message_admins_on_active_join_desc": "Отправляйте предупреждение любому, у кого есть разрешение \"Просматривать предупреждения других\", когда игрок присоединяется с активными очками.",
+    
+    "admin_settings_category_points": "Баллы",
+    "admin_settings_category_branding": "Маркировка",
+    "admin_settings_category_warnings": "Предупреждения"
 }

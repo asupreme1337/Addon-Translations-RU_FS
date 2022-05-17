@@ -2,7 +2,6 @@
     "authors": [
         "https://www.gmodstore.com/users/Livaco"
     ],
-    "icon": "flags16/gb.png",
 
     "chat_no_permission": "You aren't allowed to do that.",
     "net_cooldown": "Your sending too many packets to the server, please wait and try again.",

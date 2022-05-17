@@ -1,10 +1,28 @@
 {
     "2.0.0": {
-        "English": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/English.json",
-        "French": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/French.json",
-        "German": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/German.json",
-        "Russian": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Russian.json",
-        "Spanish": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Spanish.json",
-        "Turkish": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Turkish.json"
+        "English": {
+            "file": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/English.json",
+            "icon": "flags16/gb.png"
+        },
+        "French": {
+            "file": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/English.json",
+            "icon": "flags16/fr.png"
+        },
+        "German": {
+            "file": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/German.json",
+            "icon": "flags16/de.png"
+        },
+        "Russian": {
+            "file": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Russian.json",
+            "icon": "flags16/ru.png"
+        },
+        "Spanish": {
+            "file": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Spanish.json",
+            "icon": "flags16/es.png"
+        },
+        "Turkish": {
+            "file": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Turkish.json",
+            "icon": "flags16/tr.png"
+        }
     }
 }

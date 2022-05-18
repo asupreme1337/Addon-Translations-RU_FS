@@ -6,6 +6,7 @@
 
     "chat_no_permission": "Tu n'as pas le droit de faire ça.",
     "net_cooldown": "Vous envoyez trop de paquets au serveur, veuillez patienter et réessayer.",
+    "error": "On dirait que quelque chose ne va pas. Réessayez ultérieurement.",
 
     "admin_permissions_saved": "Vos nouvelles permissions ont bien été enregistrées.",
     "admin_config_saved": "Votre configuration a été enregistrée avec succès.",
@@ -20,9 +21,11 @@
     "admin_player_warned": "%s averti avec succès.",
     "admin_player_note_update": "Note Admin du joueur mise à jour avec succès.",
     "admin_player_wipewarns": "Tous les avertissements de %s ont été supprimé avec succès.",
+    "admin_player_joinwithactive": "%s a rejoint le serveur avec %s points actifs.",
 
     "admin_punishment_created": "Santion créée.",
     "admin_punishment_removed": "Santion supprimée.",
+    "admin_punishment_edited": "Sanction éditée.",
 
     "player_warn_notice": "%s vous a mis un avertissement, pour la raison suivante: %s",
     "player_warn_broadcast": "%s a été averti par %s pour la raison suivante: %s",
@@ -46,6 +49,7 @@
     "generic_back": "Retour",
     "generic_point_count": "Nombre de Point",
     "generic_delete": "Supprimer",
+    "generic_warned": "AVERTI",
 
     "sidebar_warnings": "Avertissements",
     "sidebar_players": "Joueurs",

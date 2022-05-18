@@ -166,4 +166,11 @@
 
     "admin_settings_join_message_message_name": "Message d'arrivée",
     "admin_settings_join_message_message_desc": "Le message à envoyer. {active} sont les points actifs, {inactive} sont les points inactifs, {points} sont le total de points"
+
+    "admin_settings_message_admins_on_active_join_name": "Prévient les Admins quand un joueur rejoint avec des points actifs",
+    "admin_settings_message_admins_on_active_join_desc": "Envoie un message à tout ceux avec la permission \"Voir les Autres Avertissements\" quand un joueur rejoint avec des points actifs.",
+
+    "admin_settings_category_points": "Points",
+    "admin_settings_category_branding": "Branding",
+    "admin_settings_category_warnings": "Avertissements"
 }

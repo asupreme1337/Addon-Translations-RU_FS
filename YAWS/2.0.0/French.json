@@ -175,6 +175,6 @@
     "admin_settings_message_admins_on_active_join_desc": "Envoie un message à tout ceux avec la permission \"Voir les Autres Avertissements\" quand un joueur rejoint avec des points actifs.",
 
     "admin_settings_category_points": "Points",
-    "admin_settings_category_branding": "Branding",
+    "admin_settings_category_branding": "Couleurs du tchat",
     "admin_settings_category_warnings": "Avertissements"
 }

@@ -190,9 +190,6 @@
 
     "admin_settings_broadcast_warns_name": "Уведомление предупреждений",
     "admin_settings_broadcast_warns_desc": "Если включено, то все пользователи сервера увидят предупреждения для игрока.",
-    
-    "admin_settings_reason_required_name": "Reason Required?",
-    "admin_settings_reason_required_desc": "If true, admins will be required to put a reason for every warn.",
 
     "admin_settings_point_cooldown_time_name": "Время для снятия предупреждений.",
     "admin_settings_point_cooldown_time_desc": "Сколько времени в секундах для снятия предупреждения. При 0 выключено.",
@@ -213,7 +210,7 @@
     "admin_settings_join_message_enabled_desc": "Если включено, то аддон будет отправлять сообщение игрокам, когда у них уже есть активные баллы",
 
     "admin_settings_join_message_message_name": "Сообщение о присоединении",
-    "admin_settings_join_message_message_desc": "Сообщение для отправки. {active} баллов, {inactive} не активных баллов. {points} всего баллов."
+    "admin_settings_join_message_message_desc": "Сообщение для отправки. {active} баллов, {inactive} не активных баллов. {points} всего баллов.",
     
     "admin_settings_message_admins_on_active_join_name": "Сообщение Администраторам после Присоединения Игрока с Активными Очками",
     "admin_settings_message_admins_on_active_join_desc": "Отправляйте предупреждение любому, у кого есть разрешение \"Просматривать предупреждения других\", когда игрок присоединяется с активными очками.",

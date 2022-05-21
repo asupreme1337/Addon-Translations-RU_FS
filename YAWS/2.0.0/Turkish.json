@@ -6,11 +6,13 @@
 
     "chat_no_permission": "Bunu yapmaya iznin yok.",
     "net_cooldown": "Sunucuya çok fazla paket gönderiyorsun. Lütfen daha sonra tekrar deneyin.",
+    "error": "Görünüşe göre bir şeyler yanlış gitti. Daha sonra tekrar deneyin.",
 
     "admin_permissions_saved": "Yeni izinler başarıyla kaydedildi.",
     "admin_config_saved": "Konfigurasyonlar başarıyla kaydedildi.",
 
     "admin_preset_added": "Başarıyla yeni bir ön ayar eklendi.",
+    "admin_preset_edited": "Ön ayar başarıyla düzenlendi.",
     "admin_preset_nope": "Ön ayarda eksik bilgi var.",
     "admin_preset_dupe": "Bu isimde bir ön ayar zaten var.",
     "admin_preset_cantfind": "Böyle bir ön ayar bulunamadı.",
@@ -20,9 +22,11 @@
     "admin_player_warned": "%s Başarıyla uyarıldı.",
     "admin_player_note_update": "Oyuncuların admin notları başarıyla güncellendi.",
     "admin_player_wipewarns": "%s adlı oyuncunun bütün uyarıları silindi.",
+    "admin_player_joinwithactive": "%s oyuna %s aktif puanla giriş yaptı.",
 
     "admin_punishment_created": "Ceza oluşturuldu.",
     "admin_punishment_removed": "Ceza silindi.",
+    "admin_punishment_edited": "Ceza düzenlendi.",
 
     "player_warn_notice": "%s seni %s sebebiyle uyardı",
     "player_warn_broadcast": "%s, %s tarafından %s sebebiyle uyarıldı",
@@ -41,11 +45,13 @@
     "player_warn_deleted": "Uyarı başarıyla silindi.",
     "player_warn_deleted_user": "%s, uyarılarınızdan birini sildi.",
 
+
     "generic_save": "Değişiklikleri Kaydet",
     "generic_cancel": "İptal Et",
     "generic_back": "Geri",
     "generic_point_count": "Puan",
     "generic_delete": "Sil",
+    "generic_warned": "UYARILDI",
 
     "sidebar_warnings": "Uyarılar",
     "sidebar_players": "Oyuncular",
@@ -76,6 +82,7 @@
     "viewing_player_table_right_points": "Puanı Kopyala",
     "viewing_player_table_right_server": "Sunucu İsmini Kopyala",
     "viewing_player_table_right_log": "Log Olarak Kopyala",
+    "viewing_player_table_log_format": "[%s] %s(%s) uyarıldı %s(%s) Sebep: \"%s\", %s puan ekleniyor.",
 
     "viewing_player_wipe_header": "%s adlı oyuncunun bütün uyarılarını sil?",
     "viewing_player_wipe_subtext": "Bu geri döndürülemez. Yapmak istediğinizin bu olduğundan emin olun.",
@@ -92,8 +99,8 @@
     "admin_tab_sidebar_settings": "Ayarlar",
     "admin_tab_sidebar_presets": "Ön Ayarlar",
     "admin_tab_sidebar_punishments": "Cezalar",
+    "admin_tab_sidebar_yaws": "YAWS",
 
-    "admin_tab_presets_none": "Hiç bir ön ayar bulunamadı",
     "admin_tab_presets_name": "Ön Ayar İsmi",
     "admin_tab_presets_reason": "Ön Ayar Sebebi",
     "admin_tab_presets_create": "Ön Ayarı Oluştur",
@@ -107,7 +114,11 @@
     "admin_tab_warning_reason_placeholder": "Sebep Gir",
 
 
+    "yaws_top": "Bu bölüm sadece eklenti sahibine gözükür yani sana",
     "yaws": "Yine Bir Uyarı Sistemi",
+    "yaws_version": "Versiyon %s",
+    "yaws_outdated": "Yeni güncelleme mevcut. Lütfen yakında indirin!",
+
     "context_warn": "Bu Oyuncuyu Uyar",
     "context_presets": "Bu Oyuncuyu Ön Ayarları Kullanarak Uyar",
     "context_points": "Puan: %s",
@@ -115,6 +126,17 @@
     "context_submit": "Uyar",
     "context_viewwarns": "Uyarıları Görüntüle",
     "context_viewnotes": "Yetkili Notlarını Görüntüle",
+
+    "page_format": "Sayfa %s/%s",
+
+    "no_player_found1": "Bu filtreyle eşleşen hiç bir oyuncu bulunamadı.",
+    "no_player_found2": "Başka bir filtre deneyin.",
+    "no_warning_found1": "Bu oyuncunun hiç bir uyarısı bulunamadı.",
+    "no_warning_found2": "Ne melek insanmış!",
+    "no_punishment_found1": "Ceza bulunamadı.",
+    "no_punishment_found2": "Bunu yapmayı yöneticilerinize bırakacağız!",
+    "no_presets_found1": "Bir ön ayar bulunamadı.",
+    "no_presets_found2": "Anladık, kendin yapmayı seviyorsun.",
 
     "points_format": "%s Puan",
 
@@ -138,14 +160,44 @@
     "user_settings_blur_name": "Arka Plan Bulanıklaştırma",
     "user_settings_blur_desc": "UI arka planında bulanıklaştırmayı etkinleştirin. Kullanıcı arabiriminin yeniden açılmasını gerektirir.",
 
+    "user_settings_switchicons_name": "Şalter ikonlarını etkinleştir",
+    "user_settings_switchicons_desc": "Erişilebilirlik için şalterlerde onay/çapraz simgelerini etkinleştirir.",
+
+    "user_settings_colorblindtxt_name": "Ek Metinleri Etkinleştir",
+    "user_settings_colorblindtxt_desc": "Erişilebilirlik için ek metinleri etkinleştirir.",
+
+    "user_settings_tableview_name": "Tablo Görünümü",
+    "user_settings_tableview_desc": "Uyarı kartlarını görüntülemek yerine uyarıları bir tablo olarak görüntüleyin. En CİDDİ Uyarı Görüntüleme Deneyimi™ için",
+
+    "user_settings_disablefade_name": "Arayüz Solmasını Devre Dışı Bırak",
+    "user_settings_disablefade_desc": "Ekstra 5ms hız için ana UI panelinin içeri/dışarı geçişini devre dışı bırakır!",
+
+    "user_settings_disableanim_name": "Arayüz Animasyonlarını Devre Dışı Bırak",
+    "user_settings_disableanim_desc": "Bütün animasyonları devre dışı bırakır.",
+
+    "user_settings_category_interface": "Arayüz",
+    "user_settings_category_accessibility": "Erişilebilirlik",
+
+
     "admin_settings_prefix_name": "Ön ek",
     "admin_settings_prefix_desc": "Eklentinin sohbette kullanacağı ön ek.",
 
     "admin_settings_prefix_color_name": "Ön ek Rengi",
     "admin_settings_prefix_color_desc": "Sohbetteki ön ekin rengi.",
 
+    "admin_settings_chat_color_name": "Sohbet Rengi",
+    "admin_settings_chat_color_desc": "Geri kalan tüm mesajların rengi. Beyazla çalışmayan bir sohbet kutusu kullanıyorsanız kullanışlıdır.",
+
+    
     "admin_settings_broadcast_warns_name": "Uyarıları Duyur",
     "admin_settings_broadcast_warns_desc": "Eğer true ise eklenti uyarıları çevrimiçi herkese duyuracak.",
+
+    "admin_settings_reason_required_name": "Sebep Gerekli mi?",
+    "admin_settings_reason_required_desc": "Eğer true ise yetkililerin her uyarıya sebep yazmaları gerekir.",
+
+    "admin_settings_purge_on_punishment_name": "Cezada Tasfiye",
+    "admin_settings_purge_on_punishment_desc": "Eğer true ise eklenti cezalandırıldıklarında oyuncuların puanlarını devre dışı bırakır.",
+
 
     "admin_settings_point_cooldown_time_name": "Puan Azalma Süresi",
     "admin_settings_point_cooldown_time_desc": "Bir oyuncudan aktif puanların kaldırılmasının ne kadar süreceği(saniye). Devre dışı bırakmak için 0 yapın.",
@@ -153,18 +205,19 @@
     "admin_settings_point_cooldown_amount_name": "Puan Azalma Miktarı",
     "admin_settings_point_cooldown_amount_desc": "Belirlenen sürede ne kadar puanın azalacağını belirler. Eğer kapalıysa bunu ellemeyin.",
 
-    "admin_settings_reason_required_name": "Sebep Gerekli mi?",
-    "admin_settings_reason_required_desc": "Eğer true ise yetkililerin her uyarıya sebep yazmaları gerekir.",
-
     "admin_settings_point_max_name": "Maksimum Puan",
     "admin_settings_point_max_desc": "Bir uyarının verebileceği maksimum puan.",
-
-    "admin_settings_purge_on_punishment_name": "Cezada Tasfiye",
-    "admin_settings_purge_on_punishment_desc": "Eğer true ise eklenti cezalandırıldıklarında oyuncuların puanlarını devre dışı bırakır.",
 
     "admin_settings_join_message_enabled_name": "Katılma Mesajı Etkin",
     "admin_settings_join_message_enabled_desc": "Eğer etkinse eklenti bir oyuncu aktif puanlarla oyuna katıldığında oyunculara mesaj gönderir.",
 
     "admin_settings_join_message_message_name": "Katıl Mesajı",
-    "admin_settings_join_message_message_desc": "Gönderilecek mesaj. {active} aktif puanlar, {inactive} in aktif puanlar, {points} toplam puanlar"
+    "admin_settings_join_message_message_desc": "Gönderilecek mesaj. {active} aktif puanlar, {inactive} in aktif puanlar, {points} toplam puanlar",
+
+    "admin_settings_message_admins_on_active_join_name": "Aktif Puanlı Oyuncu Katıldıktan Sonra Yöneticilere Mesaj Gönder",
+    "admin_settings_message_admins_on_active_join_desc": "Bir oyuncu aktif puanlarla katıldığında, \"Diğerlerinin Uyarılarını Görüntüle\" iznine sahip herkese bir uyarı gönderin.",
+
+    "admin_settings_category_points": "Puanlar",
+    "admin_settings_category_branding": "Markalama",
+    "admin_settings_category_warnings": "Uyarılar"
 }

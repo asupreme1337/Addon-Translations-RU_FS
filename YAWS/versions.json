@@ -23,6 +23,10 @@
         "Turkish": {
             "file": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Turkish.json",
             "icon": "flags16/tr.png"
+        },
+        "Hungarian": {
+            "file": "https://raw.githubusercontent.com/LivacoNew/Addon-Translations/master/YAWS/2.0.0/Hungarian.json",
+            "icon": "flags16/hu.png"
         }
     }
 }

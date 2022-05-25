@@ -1,0 +1,226 @@
+{
+  "authors": [
+    "https://www.gmodstore.com/users/Aszab123"
+  ],
+  "icon": "flags16/hu.png",
+
+  "chat_no_permission": "Nincs jogod ehhez.",
+  "net_cooldown": "Túl sok packetet küldesz a szervernek, kérlek várj egy kicsit.",
+  "error": "Úgy tûnik valami hiba történt. Próbáld újra késõbb.",
+
+  "admin_permissions_saved": "Sikeresen lementetted az új jogokat.",
+  "admin_config_saved": "Sikeresen lementetted a konfigurációdat.",
+
+  "admin_preset_added": "Sikeresen létrehoztál egy új elõre elkészített szöveget.",
+  "admin_preset_edited": "Sikeresen módosítottad az elõre elkészített szöveget.",
+  "admin_preset_nope": "Az elõre elkészített szövegbõl hiányoznak információk.",
+  "admin_preset_dupe": "Már létezk egy elõre elkészített szöveg ezzel a névvel.",
+  "admin_preset_cantfind": "Ez az elõre elkészített szöveg nem létezik.",
+  "admin_preset_removed": "Az elõre elkészített szöveg törölve lett.",
+  "admin_preset_limit": "Nem lehet több mint 32 elõre elkészített szöveged.",
+
+  "admin_player_warned": "%s sikeresen figyelmeztetve.",
+  "admin_player_note_update": "Sikeresen frissítetted ennek a játékosnak az adminisztrációs jegyzetét.",
+  "admin_player_wipewarns": "%s figyelmeztetése(i) sikeresen törölve lettek.",
+  "admin_player_joinwithactive": "%s csatlakozott a szerverhez %s aktív ponttal.",
+
+  "admin_punishment_created": "Bûntetés létrehozva.",
+  "admin_punishment_removed": "Bûntetés törölve.",
+  "admin_punishment_edited": "Bûntetés módosítva.",
+
+  "player_warn_notice": "%s figyelmeztetett téged a következõ indokkal: %s",
+  "player_warn_broadcast": "%s figyelmeztetve lett %s által a következõ indokkal: %s",
+  "player_warn_immune": "Ez a játékos immúnis a figyelmeztetésekre.",
+  "player_warn_noreason": "Kérlek, add meg az okát amiért figyelmezteted ezt a játékost.",
+  "player_warn_toolong": "Az ok nem lehet több mint 150 karakter.",
+  "player_warn_maxpoints": "Legfeljebb %s pontot adhatsz egy figyelmeztetésre.",
+  "player_warn_help": "Hogy a chaten keresztül figyelmeztess egy játékost, használd: !warn <játékos> <pontok> <indok>",
+  "player_warn_help_console": "Hogy a konzolon keresztül figyelmeztess egy játékost, használd: yaws warn <játékos> <pontok> <indok>",
+  "player_warn_searchid_wait": "Keresés... kérlek várj...",
+  "player_warn_searchid_nonefound": "Nem található figyelmeztetés ezzel az azonosítóval. (ID)",
+  "player_warn_ui": "Nem tudsz a chaten figyelmesztetni, mivel csak az elõre elkészjtett szövegeket van jogod használni.",
+  "player_warn_not_found": "\"%s\"nevezetû játékos nem található.",
+  "player_warn_wrongpoints": "A megadott pontérték érvénytelen.",
+  "player_warn_notyou": "Nem figyelmeztetheted saját magadat.",
+  "player_warn_deleted": "Fgyelmeztetés sikeresen törölve.",
+  "player_warn_deleted_user": "%s törölte az egyik figyelmeztetésedet.",
+
+
+  "generic_save": "Módosítások Mentése",
+  "generic_cancel": "Mégsem",
+  "generic_back": "Vissza",
+  "generic_point_count": "Pontérték",
+  "generic_delete": "Törlés",
+  "generic_warned": "FIGYELMEZTETVE",
+
+  "sidebar_warnings": "Figyelmeztetések",
+  "sidebar_players": "Játékosok",
+  "sidebar_admin": "Adminisztrátor",
+  "sidebar_settings": "Beállítások",
+  "sidebar_close": "Bezárás",
+
+  "players_tab_search": "keresés név/steamid(64)keresztül.",
+  "players_tab_search_button": "Keresés",
+  "players_tab_offline": "Offline játékosok keresése?",
+
+  "viewing_player_no_warns_found": "Nem találhatóak figyelmeztetések ennél a játékosnál.",
+  "viewing_player_action_submit_warn": "Új Figyelmeztetés Küldése",
+  "viewing_player_action_view_notes": "Adminisztrációs Jegyzetek Megtekintése",
+  "viewing_player_player_notes": "Adminisztrációs Jegyzetek",
+  "viewing_player_save_player_notes": "Adminisztrációs Jegyzetek Mentése",
+
+  "viewing_player_table_admin": "Adminisztrátor",
+  "viewing_player_table_reason": "Indok",
+  "viewing_player_table_time": "Idõ",
+  "viewing_player_table_points": "Pontok",
+  "viewing_player_table_server": "Szerver",
+
+  "viewing_player_table_right_id": "Figyelmeztetés Azonosító (ID) Másolása",
+  "viewing_player_table_right_admin": "Adminisztrátor Másolása",
+  "viewing_player_table_right_reason": "Indok Másolása",
+  "viewing_player_table_right_time": "Idõ Másolása",
+  "viewing_player_table_right_points": "Hozzáadott Pontok Másolása",
+  "viewing_player_table_right_server": "Szerver Nevének Másolása",
+  "viewing_player_table_right_log": "Másolás mint Elõzmény",
+  "viewing_player_table_log_format": "[%s] %s(%s) figyelmeztette %s(%s) játékost \"%s\", indokkal, %s pontért.",
+
+  "viewing_player_wipe_header": "%s összes figyelmzetésének törlése?",
+  "viewing_player_wipe_subtext": "Ez a folyamat nem visszavonható. Legyél benne bztos hogy ezt akarod tenni.",
+
+  "viewing_warn_time": "Idõ",
+  "viewing_warn_point": "Pont Súlyosság",
+  "viewing_warn_server": "Szerver",
+  "viewing_warn_reason": "Indok",
+
+  "warn_player_submit": "Játékos Figyelmzetétse",
+  "warn_player_reason": "Figyelmeztetés Oka",
+
+  "admin_tab_sidebar_permissions": "Jogok",
+  "admin_tab_sidebar_settings": "Beállítások",
+  "admin_tab_sidebar_presets": "Elõre Elkészített Szövegek",
+  "admin_tab_sidebar_punishments": "Bûntetések",
+  "admin_tab_sidebar_yaws": "YAWS",
+
+  "admin_tab_presets_name": "Elõre Elkészített Szöveg Neve",
+  "admin_tab_presets_reason": "Elõre Elkészített Szöve Indoka",
+  "admin_tab_presets_create": "Elõre Elkészített Szöveg Létrehozása",
+
+  "admin_tab_punishments_selecttype": "Bûntetés Típusának Kiválasztása",
+  "admin_tab_punishments_create": "Bûntetés Küszöbének Létrehozása",
+  "admin_tab_punishments_notype": "Nem lett bûntetés típus kiválasztva.",
+  "admin_tab_punishments_none": "Nem találhatóak bûntetések",
+
+  "admin_tab_warning_presets_box": "Elõre Elkészítet Szöveg Kiválasztása",
+  "admin_tab_warning_reason_placeholder": "Indok megadása",
+
+
+  "yaws_top": "Ez a felület csak is az addon tulajdonosának jelenik meg, avagy neked.",
+  "yaws": "Yet Another Warning System",
+  "yaws_version": "Kiadás %s",
+  "yaws_outdated": "Egy új verzió elérhetõ. Kérlek, tötlsed le mihamarabb!",
+
+  "context_warn": "Játékos Figyelmeztetése",
+  "context_presets": "Figyelmeztesd ezt a játékos Elõre Elkészített Szövegek használatával",
+  "context_points": "Pontszám(ok): %s",
+  "context_reason": "Figyelmeztetés indoka: %s",
+  "context_submit": "Figyelmeztetés Küldése",
+  "context_viewwarns": "Figyelmeztetések Megtekintése",
+  "context_viewnotes": "Adminisztrációs Jegyzetek Megtekintése",
+
+  "page_format": "Oldal %s/%s",
+
+  "no_player_found1": "Nem található játékos ezekkel a szûrõkkel..",
+  "no_player_found2": "Próbálj meg egy másik szûrõr.",
+  "no_warning_found1": "Nem találhatóak figyelmeztetések ennél a játékosnál.",
+  "no_warning_found2": "Micsoda egy angyal!",
+  "no_punishment_found1": "Nem találhatóak bûntetések.",
+  "no_punishment_found2": "Hagyjuk hogy az adminisztrátorok elvégezzék ezt!",
+  "no_presets_found1": "Nincsenek elõre elkészített szövegek.",
+  "no_presets_found2": "Megértjük, szereted a dolgokat magadtól csinálni.",
+
+  "points_format": "%s pont(ok)",
+
+  "loading": "Betöltés...",
+  "loading_hehe": "Satisfactory-val Játszik...",
+
+  "accessability_points": "Aktív Pontok",
+  "accessability_inactivepoints": "Inaktív Pontok",
+
+  "permission_view_ui": "A Felhasználói Felület (UI) Megnyitésa",
+  "permission_view_self_warns": "Saját Figyelmeztetések Megtekintése",
+  "permission_view_others_warns": "Mások Figyelmeztetéseinek Megtekintése",
+  "permission_view_admin_settings": "Adminisztrációs Beállítások Megtekintése és Módosítása",
+  "permission_create_warns": "Fgyelmeztetések Létrehozása",
+  "permission_customise_reason": "Saját Indok Használata",
+  "permission_delete_warns": "Figyelmeztetések Törlése",
+
+  "user_settings_darkmode_name": "Sötét Mód",
+  "user_settings_darkmode_desc": "Bekapcsolja a sötét módot a felahsználói felületben.",
+
+  "user_settings_language_name": "Nyelv",
+  "user_settings_language_desc": "Milyen nyelven szeretnéd látni ezt az addont? Szükséges a felhasználói felület újboli mengyitása.",
+
+  "user_settings_blur_name": "Háttér Elhomályosítása",
+  "user_settings_blur_desc": "Bekapcsolja az elhomályosítást a felahsználói felületben.. Szükséges a felhasználói felület újboli mengyitása.",
+
+  "user_settings_switchicons_name": "Kapcsoló Ikonok Engedélyezése",
+  "user_settings_switchicons_desc": "Bekapcsolja a pipa ikonokat a megkõzelíthetõségért.",
+
+  "user_settings_colorblindtxt_name": "Egyéb Üzenetek Bekapcsolása",
+  "user_settings_colorblindtxt_desc": "Bekapcsolja az egyéb üzeneteket a megközelíthetõségért.",
+
+  "user_settings_tableview_name": "Tábla Nézet",
+  "user_settings_tableview_desc": "A kártya nézet helyett, a figyelmeztétsek tábla nézete. A nagyon KOMOLY Figyelmeztetés Megtekintési Élményért™",
+
+  "user_settings_disablefade_name": "Felhasználói Felület Elhalványulásának Kikapcsolása",
+  "user_settings_disablefade_desc": "Kikapcsolja a felhasználói felület elhalványulását azért az édes 5ms-ért.",
+
+  "user_settings_disableanim_name": "Felhasználói Felület Animációk Kikapcsolása",
+  "user_settings_disableanim_desc": "Kikapcsolja a felhasználói felület összes belsõ animációit.",
+
+  "user_settings_category_interface": "Felhasználói Felület",
+  "user_settings_category_accessibility": "Megközelíthetõség",
+
+
+  "admin_settings_prefix_name": "Prefix",
+  "admin_settings_prefix_desc": "A prefix amit az addon használ a chatre kiírt üzeneteknél.",
+
+  "admin_settings_prefix_color_name": "Prefix Szín",
+  "admin_settings_prefix_color_desc": "A prefix színe ami a chaten látszik.",
+
+  "admin_settings_chat_color_name": "Chat Szín",
+  "admin_settings_chat_color_desc": "A többi üzenet színe. Ajánlatos használni ha egy olyan szövegdobozt használsz ami nem támogatja a fehér színt.",
+
+
+  "admin_settings_broadcast_warns_name": "Figyelmeztetések Kihírdetése",
+  "admin_settings_broadcast_warns_desc": "Ha be van kapcsolva, mindenkinek kiírja hogyha valaki figyelmeztetve lett.",
+
+  "admin_settings_reason_required_name": "Indok Kötelezõ?",
+  "admin_settings_reason_required_desc": "Ha bevan kapcsolva, az adminisztrátoroknak kötelezõ indokot megadni figyelmeztetéskor.",
+
+  "admin_settings_purge_on_punishment_name": "Törlés Bûntetéskor",
+  "admin_settings_purge_on_punishment_desc": "Ha be van kapcsolva, az addon az összes pontot elveszi a játékosoktól miután meglettek bûntetve.",
+
+
+  "admin_settings_point_cooldown_time_name": "Pont Idõzítõ",
+  "admin_settings_point_cooldown_time_desc": "Mennyi másodperc múlva vegyen el pontokat a játékosoktól. Tedd 0-ra a kikapcsoláshoz.",
+
+  "admin_settings_point_cooldown_amount_name": "Pont Idõzítõ Levonás",
+  "admin_settings_point_cooldown_amount_desc": "Mennyi pontot vegyen le a megadott idõközönként. Nem csinál semmit ha kivan kapcsolva.",
+
+  "admin_settings_point_max_name": "Maximális Pontszám",
+  "admin_settings_point_max_desc": "A maximális pontszám amelyet egy figyelmeztetés tartalmazhat.",
+
+  "admin_settings_join_message_enabled_name": "Csatlakozás Üzenet Engedélyezése",
+  "admin_settings_join_message_enabled_desc": "Ha be van kapcsolva, az addon csatlakozási üzenetet küld az összes ponttal.",
+
+  "admin_settings_join_message_message_name": "Csatlakozási Üzenet",
+  "admin_settings_join_message_message_desc": "Az üzenet amit küldjön. {active} az aktív pontok, {inactive} az inaktív pontok, {points} az összes pont",
+
+  "admin_settings_message_admins_on_active_join_name": "Message Admins after Player with Active Points Joins",
+  "admin_settings_message_admins_on_active_join_desc": "Send a warning to anyone with \"View Others Warnings\" permission when a player joins with active points.",
+
+  "admin_settings_category_points": "Pontok",
+  "admin_settings_category_branding": "Márka",
+  "admin_settings_category_warnings": "Figyelmeztetések"
+}

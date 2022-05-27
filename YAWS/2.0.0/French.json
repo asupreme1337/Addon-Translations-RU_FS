@@ -211,7 +211,5 @@
 "user_settings_category_interface": "Interface Utilisateur",
 "user_settings_category_accessibility": "Accessibilité",
 "admin_settings_chat_color_name": "Couleur de Tchat",
-"admin_settings_chat_color_desc": "La couleur du reste de tout les messages. Utile si vous utiliser un tchat qui ne marche pas avec le blanc.",
-	
-	
+"admin_settings_chat_color_desc": "La couleur du reste de tout les messages. Utile si vous utiliser un tchat qui ne marche pas avec le blanc."
 }

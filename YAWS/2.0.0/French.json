@@ -176,13 +176,13 @@
 
 	"admin_settings_category_points": "Points",
 	"admin_settings_category_branding": "Couleurs du tchat",
-	"admin_settings_category_warnings": "Avertissements"
+	"admin_settings_category_warnings": "Avertissements",
 	
 	
 	
 	"admin_preset_edited": "Préréglage édité avec succès.",
 "viewing_player_table_right_id": "Copier l'ID de l'avertissement",
-"viewing_player_table_log_format": "[%s] %s(%s) a averti %s(%s) pour "%s", ajoutant %s points.",
+"viewing_player_table_log_format": "[%s] %s(%s) a averti %s(%s) pour \"%s\", ajoutant %s points.",
 "admin_tab_sidebar_yaws": "YAWS",
 "yaws_top": "Ce panel est seulement accessible au propriétaire, a.k.a vous",
 "yaws_version": "Mise à jour %s",

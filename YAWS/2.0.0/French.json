@@ -177,4 +177,41 @@
 	"admin_settings_category_points": "Points",
 	"admin_settings_category_branding": "Couleurs du tchat",
 	"admin_settings_category_warnings": "Avertissements"
+	
+	
+	
+	"admin_preset_edited": "Préréglage édité avec succès.",
+"viewing_player_table_right_id": "Copier l'ID de l'avertissement",
+"viewing_player_table_log_format": "[%s] %s(%s) a averti %s(%s) pour "%s", ajoutant %s points.",
+"admin_tab_sidebar_yaws": "YAWS",
+"yaws_top": "Ce panel est seulement accessible au propriétaire, a.k.a vous",
+"yaws_version": "Mise à jour %s",
+"yaws_outdated": "Une nouvelle mise à jour est disponible. Veuillez la télécharger le plus tôt possible!",
+"page_format": "Page %s/%s",
+"no_player_found1": "Aucun joueur correspondant à ce filtre n'a été trouvé.",
+"no_player_found2": "Essayez un filtre différent.",
+"no_warning_found1": "Aucun avertissement n'a été trouvé pour ce joueur.",
+"no_warning_found2": "Quel ange!",
+"no_punishment_found1": "Aucunes sanctions n'ont été trouvées.",
+"no_punishment_found2": "Nous laisserons à vos administrateurs le soin de le faire!",
+"no_presets_found1": "Aucun préréglage n'a été trouvé.",
+"no_presets_found2": "Nous comprenons, vous aimez faire les choses vous-même.",
+"accessability_points": "Points Actifs",
+"accessability_inactivepoints": "Points Inactifs",
+"user_settings_switchicons_name": "Activer le commutateur des icones",
+"user_settings_switchicons_desc": "Active les icônes coche/croix sur les commutateurs pour l'accessibilité.",
+"user_settings_colorblindtxt_name": "Activer les textes additionnels",
+"user_settings_colorblindtxt_desc": "Active le texte supplémentaire pour l'accessibilité.",
+"user_settings_tableview_name": "Vue du tableau",
+"user_settings_tableview_desc": "Au lieu d'afficher des cartes d'avertissement, afficher les avertissements sous forme de tableau. Pour une meilleure visualisation d'avertissement.",
+"user_settings_disablefade_name": "Désactiver la disparition de l'UI",
+"user_settings_disablefade_desc": "Disables the fade in/out of the main UI panel for that extra 5ms of speed!",
+"user_settings_disableanim_name": "Désactiver les animations de l'UI",
+"user_settings_disableanim_desc": "Désactiver toutes les animations internes de l'UI.",
+"user_settings_category_interface": "Interface Utilisateur",
+"user_settings_category_accessibility": "Accessibilité",
+"admin_settings_chat_color_name": "Couleur de Tchat",
+"admin_settings_chat_color_desc": "La couleur du reste de tout les messages. Utile si vous utiliser un tchat qui ne marche pas avec le blanc.",
+	
+	
 }

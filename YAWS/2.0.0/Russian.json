@@ -52,7 +52,7 @@
     "generic_delete": "Удалить",
     "generic_warned": "ПРЕДУПРЕЖДЕН",
 
-    "sidebar_warnings": "Преды",
+    "sidebar_warnings": "Варны",
     "sidebar_players": "Пользователи",
     "sidebar_admin": "Админ",
     "sidebar_settings": "Настройки",
@@ -131,7 +131,7 @@
     "no_player_found1": "Игроки по этому фильтру не найдены.",
     "no_player_found2": "Попробуйте другой фильтр.",
     "no_warning_found1": "Никаких предупреждений для этого игрока найдено не было.",
-    "no_warning_found2": "Что за ангел!",
+    "no_warning_found2": "Что за ангел! :)",
     "no_punishment_found1": "Никаких наказаний найдено не было.",
     "no_punishment_found2": "Мы оставим это на усмотрение ваших администраторов!",
     "no_presets_found1": "Никаких пресетов найдено не было.",
@@ -146,8 +146,8 @@
     "accessability_inactivepoints": "Неактивно баллов",
 
     "permission_view_ui": "Открыть меню",
-    "permission_view_self_warns": "Просматреть их предупреждения",
-    "permission_view_others_warns": "Посмотреть другие предупреждения",
+    "permission_view_self_warns": "Просмотреть свои предупреждения",
+    "permission_view_others_warns": "Посмотреть чужие предупреждения",
     "permission_view_admin_settings": "Просмотр и редакция настроек",
     "permission_create_warns": "Создать предупреждения",
     "permission_customise_reason": "Использовать свою причину",
@@ -213,8 +213,8 @@
     "admin_settings_join_message_message_name": "Сообщение о присоединении",
     "admin_settings_join_message_message_desc": "Сообщение для отправки. {active} баллов, {inactive} не активных баллов. {points} всего баллов.",
     
-    "admin_settings_message_admins_on_active_join_name": "Сообщение Администраторам после Присоединения Игрока с Активными Очками",
-    "admin_settings_message_admins_on_active_join_desc": "Отправляйте предупреждение любому, у кого есть разрешение \"Просматривать предупреждения других\", когда игрок присоединяется с активными очками.",
+    "admin_settings_message_admins_on_active_join_name": "Сообщение админам об игроке с варнами",
+    "admin_settings_message_admins_on_active_join_desc": "С разрешением \"Просматривать предупреждения других\", придёт сообщение об игроке с активными варнами.",
     
     "admin_settings_category_points": "Баллы",
     "admin_settings_category_branding": "Маркировка",
